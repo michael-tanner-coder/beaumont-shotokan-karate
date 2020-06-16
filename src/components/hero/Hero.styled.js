@@ -12,7 +12,7 @@ const StyledHero = styled.div`
     position: relative;
     z-index: -2;
 
-    @media (max-width: 350px) {
+    @media (max-width: 400px) {
       background-size: contain;
       height: 45vh;
     }
