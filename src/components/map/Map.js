@@ -4,7 +4,6 @@ import StyledMap from "./Map.styled"
 import Pin from "../pin/Pin"
 
 const Map = ({ style: Style = StyledMap, location, zoomLevel }, props) => {
-  console.log(process.env.GATSBY_API_KEY)
   return (
     <Style {...props}>
       <div className="map">
