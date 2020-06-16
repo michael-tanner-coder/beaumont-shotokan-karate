@@ -5,7 +5,7 @@ import Heading from "../../text/Heading"
 
 const Rates = (props, { style: Style = StyledSection }) => {
   return (
-    <Style>
+    <Style id="rates">
       <Container>
         <Heading>Rates</Heading>
         <Table bordered striped>

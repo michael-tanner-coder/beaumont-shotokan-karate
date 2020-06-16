@@ -7,6 +7,10 @@ const StyledStep = styled.div`
     text-align: center;
   }
 
+  a {
+    text-align: center;
+  }
+
   .icon {
     color: ${({ theme }) => theme.primary_color};
     font-size: 3em;

@@ -16,17 +16,27 @@ const HowTo = (props, { style: Style = StyledSection }) => {
         <Row xs={1} md={3} lg={3}>
           <Col>
             <Step
-              step="1. Find our location*"
+              step="1. Find our location"
               size="lg"
               icon={faMapMarkedAlt}
+              link="#location"
             />
-            <p>* Online Applications are not available</p>
           </Col>
           <Col>
-            <Step step="2. Fill out our form" size="lg" icon={faStickyNote} />
+            <Step
+              step="2. Fill out our form"
+              size="lg"
+              icon={faStickyNote}
+              link="#apply"
+            />
           </Col>
           <Col>
-            <Step step="3. Pay a monthly fee" size="lg" icon={faDollarSign} />
+            <Step
+              step="3. Pay a monthly fee"
+              size="lg"
+              icon={faDollarSign}
+              link="/classes#rates"
+            />
           </Col>
         </Row>
       </Container>

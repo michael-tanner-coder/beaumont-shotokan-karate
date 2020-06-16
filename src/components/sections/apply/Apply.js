@@ -9,7 +9,7 @@ import { Link } from "gatsby"
 
 const Apply = (props, { style: Style = StyledSection }) => {
   return (
-    <Style>
+    <Style id="apply">
       <Row fluid xs={1} sm={1} md={2} lg={2}>
         <Col className="join">
           <div className="join__header">

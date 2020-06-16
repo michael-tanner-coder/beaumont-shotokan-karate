@@ -25,7 +25,7 @@ const Footer = ({ style: Style = StyledFooter }) => {
             </FacebookProvider>
           </Col>
           <Col>
-            <h2>Location</h2>
+            <h2 id="location">Location</h2>
             <Map location={location} zoomLevel={17} />
           </Col>
           <Col>
