@@ -11,6 +11,9 @@ const StyledHero = styled.div`
     width: 100vw;
     position: relative;
     z-index: -2;
+    @media (max-width: 450px) {
+      background-size: contain;
+    }
   }
 
   .overlay {
