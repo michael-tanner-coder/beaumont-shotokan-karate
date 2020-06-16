@@ -1,5 +1,5 @@
 import React from "react"
-import StyledTabs from "./tabs.styled"
+import StyledTabs from "./Tabs.styled"
 
 import { Tabs as BootStrapTabs } from "react-bootstrap"
 
