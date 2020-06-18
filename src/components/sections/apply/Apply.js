@@ -32,7 +32,7 @@ const Apply = (props, { style: Style = StyledSection }) => {
               <li>
                 <h3>
                   <FontAwesomeIcon icon={faStar} />
-                  &nbsp;Low price <FontAwesomeIcon icon={faStar} />
+                  &nbsp;Family Rates <FontAwesomeIcon icon={faStar} />
                 </h3>
               </li>
             </ul>
