@@ -3,6 +3,12 @@ import styled from "styled-components"
 const StyledSection = styled.section`
   margin-top: 2em;
 
+  h3 {
+    @media (max-width: 450px) {
+      font-size: 1.3em;
+    }
+  }
+
   .row {
     align-items: center;
   }
@@ -34,6 +40,7 @@ const StyledSection = styled.section`
       ul {
         padding: 1em;
         list-style: none;
+
         li {
           margin: 2em auto;
           text-align: center;
