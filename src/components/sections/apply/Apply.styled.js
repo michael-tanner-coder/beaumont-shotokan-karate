@@ -25,7 +25,8 @@ const StyledSection = styled.section`
     &__body {
       margin-top: 0;
       margin: 0 1em;
-      background-color: #363131aa;
+      background-color: #797676;
+
       height: 90%;
       border-radius: 0px 0px 8px 8px;
       padding: 0.5em;
@@ -39,23 +40,23 @@ const StyledSection = styled.section`
         }
       }
 
-      .btn {
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-        font-size: 28px;
-        border-radius: 0px;
-
-        border-radius: 8px;
-
+      a {
+        color: ${({ theme }) => theme.secondary_color};
         &:hover {
-          background-color: ${({ theme }) => theme.primary_color};
-          border-color: ${({ theme }) => theme.primary_color};
+          text-decoration: none;
         }
 
-        a {
+        .btn {
+          padding-top: 0.5em;
+          padding-bottom: 0.5em;
+          font-size: 28px;
+          border-radius: 0px;
           color: ${({ theme }) => theme.secondary_color};
+          border-radius: 8px;
+
           &:hover {
-            text-decoration: none;
+            background-color: ${({ theme }) => theme.primary_color};
+            border-color: ${({ theme }) => theme.primary_color};
           }
         }
       }

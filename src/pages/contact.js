@@ -20,6 +20,11 @@ const FormContainer = styled.div`
   margin-top: 10vh;
   margin-bottom: 10vh;
   min-width: 280px;
+
+  .sub-btn {
+    background-color: #fff;
+    width: fit-content;
+  }
 `
 
 const ContactPage = () => (
@@ -67,7 +72,9 @@ const ContactPage = () => (
               placeholder="Your message"
             ></Form.Control>
           </Form.Group>
-          <Button type="submit">Submit</Button>
+          <Button type="submit" className="sub-btn">
+            Submit
+          </Button>
         </Form>
       </FormContainer>
     </Container>

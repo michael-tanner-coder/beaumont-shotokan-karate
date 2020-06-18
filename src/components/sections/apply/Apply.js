@@ -36,9 +36,11 @@ const Apply = (props, { style: Style = StyledSection }) => {
                 </h3>
               </li>
             </ul>
-            <Button cta block>
-              <Link to="/contact">Apply Now</Link>
-            </Button>
+            <Link to="/contact">
+              <Button cta block>
+                Apply Now
+              </Button>
+            </Link>
           </div>
         </Col>
         <Col>
