@@ -18,6 +18,11 @@ const StyledHero = styled.div`
     }
   }
 
+  .title {
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 3em;
+  }
+
   .overlay {
     background-color: #000;
     opacity: 0.4;
