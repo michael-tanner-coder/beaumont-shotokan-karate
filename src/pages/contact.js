@@ -22,7 +22,6 @@ const FormContainer = styled.div`
   min-width: 280px;
 
   .sub-btn {
-    background-color: #fff;
     width: fit-content;
   }
 `

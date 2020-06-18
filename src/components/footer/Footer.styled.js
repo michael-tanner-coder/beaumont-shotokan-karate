@@ -5,6 +5,19 @@ const StyledFooter = styled.footer`
   color: ${props => props.theme.secondary_color};
   padding: 0.5em;
 
+  a {
+    color: ${props => props.theme.secondary_color};
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    list-style: none;
+  }
+
   .row {
     justify-content: space-between;
   }

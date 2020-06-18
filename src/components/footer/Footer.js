@@ -3,6 +3,9 @@ import StyledFooter from "./Footer.styled"
 import { Container, Col, Row, Button } from "react-bootstrap"
 import Map from "../map/Map"
 import { FacebookProvider, Page } from "react-facebook"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons"
 
 const location = {
   address: "5115 Eastex Freeway, Beaumont, TX 77706",
@@ -32,8 +35,16 @@ const Footer = ({ style: Style = StyledFooter }) => {
             {" "}
             <h2>Contact</h2>
             <ul>
-              <li>(832) 492-2220</li>
-              <li>patty_tanner@sbcglobal.net</li>
+              <li>
+                <FontAwesomeIcon icon={faPhone} /> &nbsp;
+                <a href="tel:+8324922220">(832) 492-2220</a>
+              </li>
+              <li>
+                <FontAwesomeIcon icon={faMailBulk} /> &nbsp;
+                <a href="mailto:patty_tanner@sbcglobal.net">
+                  patty_tanner@sbcglobal.net
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>
