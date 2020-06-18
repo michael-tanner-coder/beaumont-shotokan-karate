@@ -1,8 +1,10 @@
 import styled from "styled-components"
 
 const StyledButton = styled.div`
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   .btn {
-    -webkit-appearance: none;
     background-color: ${({ theme }) => theme.primary_color};
     color: ${({ theme }) => theme.secondary_color};
     border-color: ${({ theme }) => theme.primary_color};
