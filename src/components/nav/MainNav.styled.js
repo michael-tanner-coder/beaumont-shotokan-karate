@@ -15,7 +15,7 @@ const StyledNav = styled.div`
       color: ${props => props.theme.secondary_color};
       &:after {
         opacity: 1;
-        border-bottom: 1px solid ${props => props.theme.cta_color};
+        border-bottom: 1px solid ${props => props.theme.select_color};
       }
     }
 

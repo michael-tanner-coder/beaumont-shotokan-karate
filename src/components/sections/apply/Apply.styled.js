@@ -90,10 +90,6 @@ const StyledSection = styled.section`
     text-align: center;
     padding-top: 0.1em;
   }
-
-  .cta {
-    color: ${({ theme }) => theme.cta_color};
-  }
 `
 
 export default StyledSection
