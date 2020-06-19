@@ -17,6 +17,7 @@ import heroImage from "../images/hero.jpg"
 import Testimonials from "../components/sections/testimonials/Testimonials"
 import Details from "../components/sections/details/Details"
 import Apply from "../components/sections/apply/Apply"
+import Fade from "react-reveal/Fade"
 
 const IndexPage = () => (
   <Layout>
@@ -30,7 +31,9 @@ const IndexPage = () => (
       </Hero>
     </section>
     <Details />
-    <Testimonials />
+    <Fade>
+      <Testimonials />
+    </Fade>
     <Apply />
   </Layout>
 )

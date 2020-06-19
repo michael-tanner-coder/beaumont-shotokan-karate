@@ -6,7 +6,7 @@ import Quote from "./Quote"
 
 const Testimonials = (props, { style: Style = StyledSection }) => {
   return (
-    <Style>
+    <Style {...props}>
       {" "}
       <Container as="section">
         <Heading>What Our Students Say</Heading>

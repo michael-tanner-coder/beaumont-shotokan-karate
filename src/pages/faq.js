@@ -2,7 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Jumbotron } from "react-bootstrap"
+import { Container } from "react-bootstrap"
 import Heading from "../components/text/Heading"
 import Accordion from "../components/accordion/Accordion"
 import QandA from "../components/q-a/QandA"

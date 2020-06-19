@@ -30,6 +30,8 @@
     "react-dom": "^16.13.1",
     "react-facebook": "^8.1.4",
     "react-helmet": "^6.0.0",
+    "react-reveal": "^1.2.2",
+    "react-transition-group": "^4.4.1",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {

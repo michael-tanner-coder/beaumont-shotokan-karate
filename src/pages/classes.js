@@ -2,16 +2,6 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {
-  Card,
-  Container,
-  Row,
-  Col,
-  Button,
-  ListGroup,
-  Table,
-  Jumbotron,
-} from "react-bootstrap"
 import Apply from "../components/sections/apply/Apply"
 import ClassTypes from "../components/sections/classTypes/ClassTypes"
 import Rates from "../components/sections/rates/Rates"
