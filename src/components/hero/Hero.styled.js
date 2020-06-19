@@ -21,6 +21,10 @@ const StyledHero = styled.div`
   .title {
     font-family: "Nanum Brush Script", cursive;
     font-size: 3em;
+
+    @media (min-width: 900px) {
+      font-size: 7em;
+    }
   }
 
   .overlay {
