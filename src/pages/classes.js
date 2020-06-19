@@ -17,14 +17,16 @@ import ClassTypes from "../components/sections/classTypes/ClassTypes"
 import Rates from "../components/sections/rates/Rates"
 import HowTo from "../components/sections/howTo/HowTo"
 import Heading from "../components/text/Heading"
+import BGImg from "../components/bgImg/BGImg"
+import ClassImg from "../images/thao-le-hoang.jpg"
 
 const ClassesPage = () => (
   <Layout>
     <SEO title="Classes" />
-    <Jumbotron>
+    <BGImg image={ClassImg} x="center" y="center">
       <Heading>Class Information</Heading>
       <p>Sign up for BSK today!</p>
-    </Jumbotron>
+    </BGImg>
     <ClassTypes />
     <Rates />
     <HowTo />

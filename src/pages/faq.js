@@ -6,14 +6,16 @@ import { Container, Jumbotron } from "react-bootstrap"
 import Heading from "../components/text/Heading"
 import Accordion from "../components/accordion/Accordion"
 import QandA from "../components/q-a/QandA"
+import BGImg from "../components/bgImg/BGImg"
+import BeltImg from "../images/leslie-jones.jpg"
 
 const FAQPage = () => (
   <Layout>
     <SEO title="Frequently Asked Questions" />
-    <Jumbotron>
+    <BGImg image={BeltImg} x="center" y="65%">
       <Heading>FAQ</Heading>
       <p>Learn more here</p>
-    </Jumbotron>
+    </BGImg>
 
     <Container>
       <Accordion items={QandA.items} />
