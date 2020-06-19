@@ -4,33 +4,6 @@ const StyledSection = styled.div`
   margin-top: 50vh;
   margin-bottom: 50vh;
 
-  .entered {
-    opacity: 1;
-    transition: opacity, 0.4s ease-in-out;
-  }
-
-  .entering {
-    opacity: 0;
-  }
-
-  @keyframes fade {
-    0% {
-      opacity: 0;
-    }
-
-    50% {
-      opacity: 0.5;
-    }
-
-    75% {
-      opacity: 0.75;
-    }
-
-    100% {
-      opacity: 1;
-    }
-  }
-
   h1 {
     margin-bottom: 0.5em;
     text-align: center;

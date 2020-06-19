@@ -29,15 +29,19 @@ const StyledSection = styled.section`
       margin: 0 1em;
       height: 10%;
       border-radius: 8px 8px 0px 0px;
+      box-shadow: 7px 10px 12px #888888;
+      box-shadow: 7px 10px 12px #88888899;
     }
 
     &__body {
-      background-color: #797676;
+      background-color: #f5f5f5;
       border-radius: 0px 0px 8px 8px;
       height: 90%;
       margin-top: 0;
       margin: 0 1em;
       padding: 0.5em;
+      box-shadow: 7px 10px 12px #888888;
+      box-shadow: 7px 10px 12px #88888899;
 
       ul {
         padding: 1em;
@@ -47,7 +51,12 @@ const StyledSection = styled.section`
         li {
           margin: 2em auto;
           text-align: center;
+          color: ${({ theme }) => theme.primary_font_color};
         }
+      }
+
+      .icon {
+        color: ${({ theme }) => theme.select_color};
       }
 
       a {

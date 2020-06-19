@@ -22,20 +22,23 @@ const Apply = (props, { style: Style = StyledSection }) => {
                 <ul>
                   <li>
                     <h2>
-                      <FontAwesomeIcon icon={faStar} />
-                      &nbsp;Family-friendly <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} className="icon" />
+                      &nbsp;Family-friendly{" "}
+                      <FontAwesomeIcon icon={faStar} className="icon" />
                     </h2>
                   </li>
                   <li>
                     <h2>
-                      <FontAwesomeIcon icon={faStar} />
-                      &nbsp;Timeless lessons <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} className="icon" />
+                      &nbsp;Timeless lessons{" "}
+                      <FontAwesomeIcon icon={faStar} className="icon" />
                     </h2>
                   </li>
                   <li>
                     <h2>
-                      <FontAwesomeIcon icon={faStar} />
-                      &nbsp;Family Rates <FontAwesomeIcon icon={faStar} />
+                      <FontAwesomeIcon icon={faStar} className="icon" />
+                      &nbsp;Family Rates{" "}
+                      <FontAwesomeIcon icon={faStar} className="icon" />
                     </h2>
                   </li>
                 </ul>
