@@ -24,7 +24,13 @@ const StyledStep = styled.div`
 
     &:hover {
       color: ${({ theme }) => theme.cta_color};
-      cursor: pointer;
+    }
+  }
+
+  .btn {
+    &:hover {
+      background-color: ${({ theme }) => theme.cta_color};
+      border-color: ${({ theme }) => theme.cta_color};
     }
   }
 `

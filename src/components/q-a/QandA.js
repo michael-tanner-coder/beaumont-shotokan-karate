@@ -138,7 +138,10 @@ const QandA = {
       content: (
         <p>
           Sensei Patty Tanner can be reached at (832) 492-2220 or by e- mail at
-          <a href=""> pattytanner@beaumontshotokan.com</a>
+          <a href="mailto:patty_tanner@sbcglobal.net">
+            {" "}
+            patty_tanner@sbcglobal.net
+          </a>
         </p>
       ),
     },
