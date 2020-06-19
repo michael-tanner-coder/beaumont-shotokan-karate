@@ -34,40 +34,44 @@ const ContactPage = () => (
         <Heading center>Contact Us</Heading>
         <Form>
           <Form.Group>
-            <Form.Label>
+            <Form.Label for="name">
               Name:
               <Asterisk />
             </Form.Label>
             <Form.Control
               required
               type="name"
+              id="name"
               placeholder="First and last name"
             ></Form.Control>
           </Form.Group>
           <Form.Group>
-            <Form.Label>
+            <Form.Label for="email">
               Email: <Asterisk />
             </Form.Label>
             <Form.Control
               required
               type="email"
+              id="email"
               placeholder="Email address"
             ></Form.Control>
           </Form.Group>
           <Form.Group>
-            <Form.Label>Phone:</Form.Label>
+            <Form.Label for="phone">Phone:</Form.Label>
             <Form.Control
               type="phone"
+              id="phone"
               placeholder="Phone number"
             ></Form.Control>
           </Form.Group>
           <Form.Group>
-            <Form.Label>
+            <Form.Label for="message">
               Message: <Asterisk />
             </Form.Label>
             <Form.Control
               required
               as="textarea"
+              id="message"
               placeholder="Your message"
             ></Form.Control>
           </Form.Group>
