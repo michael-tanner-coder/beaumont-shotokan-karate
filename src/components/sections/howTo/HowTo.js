@@ -20,6 +20,7 @@ const HowTo = (props, { style: Style = StyledSection }) => {
               size="lg"
               icon={faMapMarkedAlt}
               link="#location"
+              content="View address"
             />
           </Col>
           <Col>
@@ -27,7 +28,8 @@ const HowTo = (props, { style: Style = StyledSection }) => {
               step="2. Fill out our form"
               size="lg"
               icon={faStickyNote}
-              link="#apply"
+              link="/contact"
+              content="Contact us for a form"
             />
           </Col>
           <Col>
@@ -36,6 +38,7 @@ const HowTo = (props, { style: Style = StyledSection }) => {
               size="lg"
               icon={faDollarSign}
               link="/classes#rates"
+              content="View our rates"
             />
           </Col>
         </Row>

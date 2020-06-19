@@ -37,12 +37,12 @@ const Footer = ({ style: Style = StyledFooter }) => {
             <ul>
               <li>
                 <FontAwesomeIcon icon={faPhone} /> &nbsp;
-                <a href="tel:+8324922220">(832) 492-2220</a>
+                <a href="tel:+8324922220">Phone: (832) 492-2220</a>
               </li>
               <li>
                 <FontAwesomeIcon icon={faMailBulk} /> &nbsp;
                 <a href="mailto:patty_tanner@sbcglobal.net">
-                  patty_tanner@sbcglobal.net
+                  Email: patty_tanner@sbcglobal.net
                 </a>
               </li>
             </ul>
