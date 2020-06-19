@@ -9,6 +9,7 @@ import HowTo from "../components/sections/howTo/HowTo"
 import Heading from "../components/text/Heading"
 import BGImg from "../components/bgImg/BGImg"
 import ClassImg from "../images/thao-le-hoang.jpg"
+import Fade from "react-reveal"
 
 const ClassesPage = () => (
   <Layout>
@@ -18,8 +19,13 @@ const ClassesPage = () => (
       <p>Sign up for BSK today!</p>
     </BGImg>
     <ClassTypes />
-    <Rates />
-    <HowTo />
+
+    <Fade>
+      <Rates />
+    </Fade>
+    <Fade>
+      <HowTo />
+    </Fade>
     <Apply />
   </Layout>
 )

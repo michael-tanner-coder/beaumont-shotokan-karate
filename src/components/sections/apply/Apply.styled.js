@@ -56,7 +56,7 @@ const StyledSection = styled.section`
       }
 
       .icon {
-        color: ${({ theme }) => theme.select_color};
+        color: ${({ theme }) => theme.primary_color};
       }
 
       a {

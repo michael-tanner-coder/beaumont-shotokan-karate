@@ -4,7 +4,6 @@ import StyledSection from "./Testimonials.styled"
 import Heading from "../../text/Heading"
 import Quote from "./Quote"
 import Jump from "react-reveal/Jump"
-import Fade from "react-reveal/Fade"
 
 const Testimonials = (props, { style: Style = StyledSection }) => {
   return (
