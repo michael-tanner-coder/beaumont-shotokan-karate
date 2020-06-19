@@ -14,30 +14,30 @@ const Testimonials = (props, { style: Style = StyledSection }) => {
         <Heading>What Our Students Say</Heading>
         <Container>
           <Row xs={1} md={1} lg={3}>
-            <Fade left>
+            <Jump delay={125}>
               <Col>
                 <Quote
                   text="BSK helped me grow as a person. I'm more confident than ever!"
                   citation="Zachary, green belt"
                 ></Quote>
               </Col>
-            </Fade>
-            <Fade top>
+            </Jump>
+            <Jump delay={250}>
               <Col>
                 <Quote
                   text="I learned so much and made so many friends!"
                   citation="Eliza, brown belt"
                 ></Quote>
               </Col>
-            </Fade>
-            <Fade right>
+            </Jump>
+            <Jump delay={500}>
               <Col>
                 <Quote
                   text="Our sensei trains us hard, but it's always worth the effort!"
                   citation="Rajat, purple belt"
                 ></Quote>
               </Col>
-            </Fade>
+            </Jump>
           </Row>
         </Container>
       </Container>
