@@ -19,7 +19,7 @@ const Footer = ({ style: Style = StyledFooter }) => {
       <Container fluid>
         <Row xs={1} md={2} lg={3}>
           <Col>
-            <h2>Find us on Facebook!</h2>
+            <h1>Find us on Facebook!</h1>
             <FacebookProvider appId="2620566434877428">
               <Page
                 href="https://www.facebook.com/BeaumontShotokan/"
@@ -28,12 +28,12 @@ const Footer = ({ style: Style = StyledFooter }) => {
             </FacebookProvider>
           </Col>
           <Col>
-            <h2 id="location">Location</h2>
+            <h1 id="location">Location</h1>
             <Map location={location} zoomLevel={17} />
           </Col>
           <Col>
             {" "}
-            <h2>Contact</h2>
+            <h1>Contact</h1>
             <ul>
               <li>
                 <FontAwesomeIcon icon={faPhone} /> &nbsp;

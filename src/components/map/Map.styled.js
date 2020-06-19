@@ -27,6 +27,7 @@ const StyledMap = styled.div`
 
   .pin-text {
     font-size: 1.3em;
+    color: ${({ theme }) => theme.primary_font_color};
   }
 
   @media screen and (min-width: 799px) {

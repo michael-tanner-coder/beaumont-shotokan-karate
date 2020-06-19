@@ -3,7 +3,10 @@ import styled from "styled-components"
 const StyledSection = styled.section`
   margin-top: 2em;
 
-  h3 {
+  h2 {
+    @media (max-width: 1000px) {
+      font-size: 1.4em;
+    }
     @media (max-width: 450px) {
       font-size: 1.3em;
     }

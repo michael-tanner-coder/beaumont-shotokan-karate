@@ -25,11 +25,11 @@ const Rates = (props, { style: Style = StyledSection }) => {
           </tbody>
         </Table>
         <Container>
-          <h4>No Contracts</h4>
+          <h2>No Contracts</h2>
           <hr />
-          <h4>
+          <h2>
             First month is <span className="red">FREE</span>
-          </h4>
+          </h2>
         </Container>
       </Container>
     </Style>

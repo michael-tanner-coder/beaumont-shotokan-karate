@@ -5,6 +5,7 @@ const StyledStep = styled.div`
   h3 {
     color: ${({ theme }) => theme.primary_color};
     text-align: center;
+    font-size: 1.5em;
   }
 
   a {

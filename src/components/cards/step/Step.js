@@ -12,7 +12,7 @@ const Step = (props, { style: Style = StyledStep }) => {
           <FontAwesomeIcon icon={props.icon} className="icon" />
         </Link>
         <Card.Body>
-          <h3>{props.step}</h3>
+          <h2>{props.step}</h2>
         </Card.Body>
       </Card>
     </Style>

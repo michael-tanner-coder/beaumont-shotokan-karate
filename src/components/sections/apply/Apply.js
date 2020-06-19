@@ -18,22 +18,22 @@ const Apply = (props, { style: Style = StyledSection }) => {
           <div className="join__body">
             <ul>
               <li>
-                <h3>
+                <h2>
                   <FontAwesomeIcon icon={faStar} />
                   &nbsp;Family-friendly <FontAwesomeIcon icon={faStar} />
-                </h3>
+                </h2>
               </li>
               <li>
-                <h3>
+                <h2>
                   <FontAwesomeIcon icon={faStar} />
                   &nbsp;Timeless lessons <FontAwesomeIcon icon={faStar} />
-                </h3>
+                </h2>
               </li>
               <li>
-                <h3>
+                <h2>
                   <FontAwesomeIcon icon={faStar} />
                   &nbsp;Family Rates <FontAwesomeIcon icon={faStar} />
-                </h3>
+                </h2>
               </li>
             </ul>
             <Link to="/contact">
