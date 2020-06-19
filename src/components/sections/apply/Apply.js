@@ -44,7 +44,11 @@ const Apply = (props, { style: Style = StyledSection }) => {
           </div>
         </Col>
         <Col>
-          <img src={CTAImage} className="image"></img>
+          <img
+            src={CTAImage}
+            className="image"
+            alt="A small, smiling girl wearing a karate uniform. She is holding her fists up in a fighting stance."
+          ></img>
         </Col>
       </Row>
 

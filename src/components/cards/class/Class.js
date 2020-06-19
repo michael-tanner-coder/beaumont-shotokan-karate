@@ -7,7 +7,7 @@ const Class = (props, { style: Style = StyledClass }) => {
     <Style>
       <Card>
         <Card.Header>{props.classType}</Card.Header>
-        <Card.Img variant="top" src={props.image} />
+        <Card.Img variant="top" src={props.image} alt={props.alt} />
         <Card.Body>
           <ListGroup variant="flush">
             <ListGroup.Item>

@@ -21,6 +21,7 @@ const ClassTypes = (props, { style: Style = StyledSection }) => {
               time="Tu/Th: 5pm"
               length="30 min"
               image={karateKid}
+              alt="Small girl in a karate uniform, standing next to a tree at daytime"
             />
           </Col>
           <Col>
@@ -30,6 +31,7 @@ const ClassTypes = (props, { style: Style = StyledSection }) => {
               time="Tu/Th: 5:30pm"
               length="1 hour"
               image={bigKids}
+              alt="Two children, a boy and a girl, practicing karate outside. The girl is punching toward the camera."
             />
           </Col>
           <Col>
@@ -39,6 +41,7 @@ const ClassTypes = (props, { style: Style = StyledSection }) => {
               time="Tu/Th: 7:30pm"
               length="1 hour and 30 minutes"
               image={adults}
+              alt="Two men sparring outdoors. One man is leaping to punch the other. The other man is raising his leg to kick."
             />
           </Col>
         </Row>

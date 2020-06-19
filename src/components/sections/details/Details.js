@@ -22,7 +22,7 @@ const Details = (props, { style: Style = StyledSection }) => {
               fluid
               className="mr-3"
               src={selfDefenseImage}
-              alt="Generic placeholder"
+              alt="Two men practicing karate in a park"
             />
           </Col>
         </Row>
@@ -33,7 +33,7 @@ const Details = (props, { style: Style = StyledSection }) => {
               fluid
               className="mr-3"
               src={communityImage}
-              alt="Generic placeholder"
+              alt="Two young girls practicing karate outdoors. The rightmost girl is kicking toward the camera."
             />
           </Col>
           <Col>
