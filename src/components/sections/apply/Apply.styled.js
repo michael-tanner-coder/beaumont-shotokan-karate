@@ -89,6 +89,15 @@ const StyledSection = styled.section`
     margin-bottom: 5em;
     text-align: center;
     padding-top: 0.1em;
+
+    @media (max-width: 450px) {
+      margin-top: 1em;
+      padding-top: 0.8em;
+    }
+
+    @media (max-width: 1000px) {
+      padding-top: 0.5em;
+    }
   }
 `
 
