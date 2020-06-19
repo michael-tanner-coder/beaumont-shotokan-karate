@@ -1,6 +1,9 @@
 import styled from "styled-components"
 
 const StyledStep = styled.div`
+  box-shadow: 5px 8px 15px #888888;
+  box-shadow: 5px 8px 15px #88888899;
+  border-radius: 8px;
   h2,
   h3 {
     color: ${({ theme }) => theme.primary_color};
