@@ -31,9 +31,9 @@ const IndexPage = () => (
       </Hero>
     </section>
     <Details />
-    <Fade>
-      <Testimonials />
-    </Fade>
+
+    <Testimonials />
+
     <Apply />
   </Layout>
 )

@@ -10,7 +10,7 @@ const Details = (props, { style: Style = StyledSection }) => {
   return (
     <Style>
       <Container>
-        <Fade left>
+        <Fade left duration={1100}>
           <Row xs={1} md={2} lg={2}>
             <Col>
               <Heading as="h2">SELF-DEFENSE</Heading>
@@ -30,7 +30,7 @@ const Details = (props, { style: Style = StyledSection }) => {
           </Row>
         </Fade>
 
-        <Fade right>
+        <Fade right duration={900}>
           <Row xs={1} md={2} lg={2}>
             <Col>
               <Image
