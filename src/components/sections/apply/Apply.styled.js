@@ -32,17 +32,17 @@ const StyledSection = styled.section`
     }
 
     &__body {
+      background-color: #797676;
+      border-radius: 0px 0px 8px 8px;
+      height: 90%;
       margin-top: 0;
       margin: 0 1em;
-      background-color: #797676;
-
-      height: 90%;
-      border-radius: 0px 0px 8px 8px;
       padding: 0.5em;
 
       ul {
         padding: 1em;
         list-style: none;
+        margin: auto;
 
         li {
           margin: 2em auto;
