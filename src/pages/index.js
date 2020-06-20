@@ -21,6 +21,10 @@ import Fade from "react-reveal/Fade"
 
 const IndexPage = () => (
   <Layout>
+    <SEO
+      title="Home"
+      description="Traditional, family-friendly karate lessons in Beaumont, Texas."
+    />
     <section>
       <Hero image={heroImage}>
         <h1 className="title">

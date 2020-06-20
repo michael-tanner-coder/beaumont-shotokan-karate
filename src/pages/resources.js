@@ -14,7 +14,10 @@ import StudentImg from "../images/charlein-gracia.jpg"
 
 const ResourcesPage = () => (
   <Layout>
-    <SEO title="Student Resources" />
+    <SEO
+      title="Student Resources"
+      description="Prepare yourself for training at BSK! Learn about the dojo terms, belt testing requirements, and where to buy your uniform and sparring equipment."
+    />
     <BGImg image={StudentImg} x="center" y="25%">
       <Heading>Student Resources</Heading>
       <p>Become a better BSK student!</p>

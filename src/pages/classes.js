@@ -13,7 +13,10 @@ import Fade from "react-reveal"
 
 const ClassesPage = () => (
   <Layout>
-    <SEO title="Classes" />
+    <SEO
+      title="Class Times and Pricing"
+      description="Learn more about our karate class times and affordable family rates. Join BSK today!"
+    />
     <BGImg image={ClassImg} x="center" y="center">
       <Heading>Class Information</Heading>
       <p>Sign up for BSK today!</p>

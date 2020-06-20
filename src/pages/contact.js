@@ -28,7 +28,10 @@ const FormContainer = styled.div`
 
 const ContactPage = () => (
   <Layout>
-    <SEO title="Contact us" />
+    <SEO
+      title="Contact us"
+      description="Contact our sensei to get a registration form and join Beaumont Shotokan Karate."
+    />
     <Container>
       <FormContainer>
         <Heading center>Contact Us</Heading>

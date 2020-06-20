@@ -3,6 +3,7 @@ module.exports = {
     title: `Beaumont Shotokan Karate`,
     description: `Family-friendly karate classes at a low price in Beaumont, Texas`,
     author: `Michael Tanner`,
+    image: "/images/hero.jpg",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
