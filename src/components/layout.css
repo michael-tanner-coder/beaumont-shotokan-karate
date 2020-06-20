@@ -1,4 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
+
+@font-face {
+  font-family: "Edo SZ";
+  src: local("Edo SZ"), url("../fonts/edosz.ttf") format("truetype");
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;

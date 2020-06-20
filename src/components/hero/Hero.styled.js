@@ -19,7 +19,7 @@ const StyledHero = styled.div`
   }
 
   .title {
-    font-family: "Nanum Brush Script", cursive;
+    font-family: "Edo SZ";
     font-size: 3em;
 
     @media (min-width: 900px) {

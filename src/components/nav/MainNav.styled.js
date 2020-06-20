@@ -4,8 +4,9 @@ const StyledNav = styled.div`
   background-color: ${props => props.theme.primary_color};
 
   .navbar-brand {
-    font-family: "Nanum Brush Script", cursive;
+    font-family: "Edo SZ";
   }
+
   .navbar-brand,
   .navbar-nav a {
     color: ${props => props.theme.secondary_color};

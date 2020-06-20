@@ -14,6 +14,7 @@ import { ThemeProvider } from "styled-components"
 import { default as theme } from "./theme"
 import Footer from "./footer/Footer"
 import MainNav from "./nav/MainNav"
+import "../fonts/edosz.ttf"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
