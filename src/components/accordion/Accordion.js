@@ -1,13 +1,15 @@
+// Dependencies
 import React from "react"
-import { Accordion as Acc, Card } from "react-bootstrap"
 
+// Components
+import { Accordion as Acc, Card } from "react-bootstrap"
 import StyledAccordion from "./Accordion.styled"
 
 function setActive(e) {
   var target_element = e.target
   var elements = document.getElementsByClassName("card-header")
   Array.prototype.forEach.call(elements, function (el) {
-    if (el == target_element) {
+    if (el === target_element) {
       el.classList.add("active")
     } else {
       el.classList.remove("active")

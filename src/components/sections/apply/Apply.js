@@ -1,7 +1,7 @@
 import React from "react"
 import StyledSection from "./Apply.styled"
 import CTAImage from "../../../images/stock.jpg"
-import { Container, Row, Col } from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
 import Button from "../../button/Button"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faStar } from "@fortawesome/free-solid-svg-icons"

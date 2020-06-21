@@ -1,10 +1,12 @@
+// Dependencies
 import React from "react"
+import styled from "styled-components"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Form, Container } from "react-bootstrap"
 import Heading from "../components/text/Heading"
-import styled from "styled-components"
 import Button from "../components/button/Button"
 
 const Asterisk = styled.span`

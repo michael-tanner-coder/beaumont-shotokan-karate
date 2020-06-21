@@ -1,23 +1,17 @@
+// Dependencies
 import React from "react"
-import { Link } from "gatsby"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import {
-  Button,
-  Container,
-  Col,
-  Row,
-  Jumbotron,
-  Media,
-  Image,
-} from "react-bootstrap"
 import Hero from "../components/hero/Hero"
-import heroImage from "../images/hero.jpg"
 import Testimonials from "../components/sections/testimonials/Testimonials"
 import Details from "../components/sections/details/Details"
 import Apply from "../components/sections/apply/Apply"
 import Fade from "react-reveal/Fade"
+
+// Images
+import heroImage from "../images/hero.jpg"
 
 const IndexPage = () => (
   <Layout>

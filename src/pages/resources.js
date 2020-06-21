@@ -1,15 +1,20 @@
 import React from "react"
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Container, Row, Col, Table, Tab, Card, Button } from "react-bootstrap"
-import Accordion from "../components/accordion/Accordion"
+// Page data
 import Equipment from "../components/resources/Equipment"
 import Terms from "../components/resources/Terms"
 import Testing from "../components/resources/Testing"
+
+// Components
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 import Heading from "../components/text/Heading"
 import Tabs from "../components/tabs/Tabs"
 import BGImg from "../components/bgImg/BGImg"
+import { Container, Tab } from "react-bootstrap"
+import Accordion from "../components/accordion/Accordion"
+
+// Images
 import StudentImg from "../images/charlein-gracia.jpg"
 
 const ResourcesPage = () => (
@@ -35,7 +40,6 @@ const ResourcesPage = () => (
         </Tab>
       </Tabs>
     </Container>
-    <br />
   </Layout>
 )
 

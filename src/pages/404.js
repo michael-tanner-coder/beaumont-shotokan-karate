@@ -1,9 +1,10 @@
+// Dependencies
 import React from "react"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Jumbotron } from "react-bootstrap"
-import Heading from "../components/text/Heading"
 import { Link } from "gatsby"
 
 const NotFoundPage = () => (

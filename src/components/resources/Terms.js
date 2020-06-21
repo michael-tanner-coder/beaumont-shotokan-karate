@@ -1,5 +1,5 @@
 import React from "react"
-import { Table, Accordion } from "react-bootstrap"
+import { Table } from "react-bootstrap"
 
 const CommonTerms = {
   terms: [

@@ -4,6 +4,7 @@ const StyledFooter = styled.footer`
   background-color: ${props => props.theme.primary_color};
   color: ${props => props.theme.secondary_color};
   padding: 0.5em;
+  margin-top: 1.5em;
 
   a {
     color: ${props => props.theme.secondary_color};

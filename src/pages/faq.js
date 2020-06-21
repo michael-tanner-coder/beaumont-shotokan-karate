@@ -1,5 +1,7 @@
+// Dependencies
 import React from "react"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container } from "react-bootstrap"
@@ -7,6 +9,8 @@ import Heading from "../components/text/Heading"
 import Accordion from "../components/accordion/Accordion"
 import QandA from "../components/q-a/QandA"
 import BGImg from "../components/bgImg/BGImg"
+
+// Images
 import BeltImg from "../images/leslie-jones.jpg"
 
 const FAQPage = () => (
@@ -23,7 +27,6 @@ const FAQPage = () => (
     <Container>
       <Accordion items={QandA.items} />
     </Container>
-    <br />
   </Layout>
 )
 

@@ -1,5 +1,7 @@
+// Dependencies
 import React from "react"
 
+// Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Apply from "../components/sections/apply/Apply"
@@ -8,8 +10,10 @@ import Rates from "../components/sections/rates/Rates"
 import HowTo from "../components/sections/howTo/HowTo"
 import Heading from "../components/text/Heading"
 import BGImg from "../components/bgImg/BGImg"
-import ClassImg from "../images/thao-le-hoang.jpg"
 import Fade from "react-reveal"
+
+// Images
+import ClassImg from "../images/thao-le-hoang.jpg"
 
 const ClassesPage = () => (
   <Layout>

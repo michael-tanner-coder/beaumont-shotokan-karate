@@ -1,11 +1,14 @@
+// Dependencies
 import React from "react"
 import StyledFooter from "./Footer.styled"
-import { Container, Col, Row, Button } from "react-bootstrap"
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faMailBulk } from "@fortawesome/free-solid-svg-icons"
+
+// Components
+import { Container, Col, Row } from "react-bootstrap"
 import Map from "../map/Map"
 import { FacebookProvider, Page } from "react-facebook"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faPhone } from "@fortawesome/free-solid-svg-icons"
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons"
 
 const location = {
   address: "5115 Eastex Freeway, Beaumont, TX 77706",
