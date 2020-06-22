@@ -1,4 +1,5 @@
 import React from "react"
+
 import StyledBG from "./BGImg.styled"
 import { Jumbotron, Container } from "react-bootstrap"
 

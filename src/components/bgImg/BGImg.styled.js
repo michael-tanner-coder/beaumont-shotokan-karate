@@ -8,20 +8,20 @@ const StyledBG = styled.div`
 
   .jumbo {
     background: url(${props => props.image}) no-repeat scroll bottom;
-    background-size: cover;
     background-position: ${props => props.x} ${props => props.y};
-    z-index: -2;
+    background-size: cover;
     position: relative;
+    z-index: -2;
   }
 
   .overlay {
     background-color: #000;
+    bottom: 0;
+    left: 0;
     opacity: 0.4;
     position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
     right: 0;
+    top: 0;
     z-index: -1;
   }
 `

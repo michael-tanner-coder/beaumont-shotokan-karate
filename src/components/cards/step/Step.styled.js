@@ -1,26 +1,23 @@
 import styled from "styled-components"
 
 const StyledStep = styled.div`
+  border-radius: 8px;
   box-shadow: 5px 8px 15px #888888;
   box-shadow: 5px 8px 15px #88888899;
-  border-radius: 8px;
-  h2,
-  h3 {
-    color: ${({ theme }) => theme.primary_color};
-    text-align: center;
-    font-size: 1.5em;
-  }
 
+  h2,
+  h3,
   a {
+    color: ${({ theme }) => theme.primary_color};
+    font-size: 1.5em;
     text-align: center;
   }
 
   .icon {
     color: ${({ theme }) => theme.primary_color};
     font-size: 3em;
+    margin: 1em auto auto auto;
     text-align: center;
-    margin: auto;
-    margin-top: 1em;
 
     &:hover {
       color: ${({ theme }) => theme.cta_color};
