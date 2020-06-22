@@ -1,12 +1,17 @@
+// Dependencies
 import React from "react"
+
+// Components
+import Class from "../../cards/class/Class"
+import Fade from "react-reveal/Fade"
+import Heading from "../../text/Heading"
 import StyledSection from "./ClassTypes.styled"
 import { Container, Row, Col } from "react-bootstrap"
-import Class from "../../cards/class/Class"
-import karateKid from "../../../images/karatekid.jpg"
-import bigKids from "../../../images/bigKids.jpg"
+
+// Images
 import adults from "../../../images/adults.jpg"
-import Heading from "../../text/Heading"
-import Fade from "react-reveal/Fade"
+import bigKids from "../../../images/bigKids.jpg"
+import karateKid from "../../../images/karatekid.jpg"
 
 const ClassTypes = (props, { style: Style = StyledSection }) => {
   return (

@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 const StyledSection = styled.section`
   margin-top: 2em;
+  color: ${({ theme }) => theme.secondary_color};
 
   h2 {
     @media (max-width: 1000px) {
@@ -12,23 +13,26 @@ const StyledSection = styled.section`
     }
   }
 
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .row {
     align-items: center;
   }
 
   .join {
-    color: ${({ theme }) => theme.secondary_color};
     width: 60%;
 
     &__header {
-      padding-top: 0.5em;
-      padding-bottom: 0.5em;
       background-color: ${({ theme }) => theme.primary_color};
-      text-align: center;
-      margin-bottom: 0;
-      margin: 0 1em;
-      height: 10%;
       border-radius: 8px 8px 0px 0px;
+      height: 10%;
+      margin: 0 1em;
+      padding: 0.5em 0;
+      text-align: center;
       box-shadow: 7px 10px 12px #888888;
       box-shadow: 7px 10px 12px #88888899;
     }
@@ -37,46 +41,35 @@ const StyledSection = styled.section`
       background-color: #f5f5f5;
       border-radius: 0px 0px 8px 8px;
       height: 90%;
-      margin-top: 0;
-      margin: 0 1em;
+      margin: 0 1em 1.2em;
       padding: 0.5em;
       box-shadow: 7px 10px 12px #888888;
       box-shadow: 7px 10px 12px #88888899;
 
       ul {
-        padding: 1em;
         list-style: none;
         margin: auto;
+        padding: 1em;
 
         li {
           margin: 2em auto;
           text-align: center;
           color: ${({ theme }) => theme.primary_font_color};
         }
-      }
 
-      .icon {
-        color: ${({ theme }) => theme.primary_color};
-      }
-
-      a {
-        color: ${({ theme }) => theme.secondary_color};
-        &:hover {
-          text-decoration: none;
+        .icon {
+          color: ${({ theme }) => theme.primary_color};
         }
+      }
 
-        .btn {
-          padding-top: 0.5em;
-          padding-bottom: 0.5em;
-          font-size: 28px;
-          border-radius: 0px;
-          color: ${({ theme }) => theme.secondary_color};
-          border-radius: 8px;
+      .btn {
+        border-radius: 8px;
+        font-size: 28px;
+        padding: 0.5em 0;
 
-          &:hover {
-            background-color: ${({ theme }) => theme.primary_color};
-            border-color: ${({ theme }) => theme.primary_color};
-          }
+        &:hover {
+          background-color: ${({ theme }) => theme.primary_color};
+          border-color: ${({ theme }) => theme.primary_color};
         }
       }
     }
@@ -90,12 +83,10 @@ const StyledSection = styled.section`
     }
   }
 
-  .footer {
+  .banner {
     background-color: ${({ theme }) => theme.primary_color};
-    color: ${({ theme }) => theme.secondary_color};
     height: 50px;
-    margin-top: -1.45em;
-    margin-bottom: 5em;
+    margin: -1.45em 0 5em 0;
     text-align: center;
     padding-top: 0.1em;
 

@@ -1,7 +1,8 @@
 import React from "react"
+
+import Heading from "../../text/Heading"
 import StyledSection from "./Rates.styled"
 import { Table, Container } from "react-bootstrap"
-import Heading from "../../text/Heading"
 
 const Rates = (props, { style: Style = StyledSection }) => {
   return (

@@ -1,10 +1,15 @@
+// Dependencies
 import React from "react"
+
+// Components
+import Fade from "react-reveal/Fade"
+import Heading from "../../text/Heading"
 import StyledSection from "./Details.styled"
 import { Container, Row, Col, Image } from "react-bootstrap"
-import Heading from "../../text/Heading"
+
+// Images
 import communityImage from "../../../images/ashima-pargal.jpg"
 import selfDefenseImage from "../../../images/soon-santos.jpg"
-import Fade from "react-reveal/Fade"
 
 const Details = (props, { style: Style = StyledSection }) => {
   return (

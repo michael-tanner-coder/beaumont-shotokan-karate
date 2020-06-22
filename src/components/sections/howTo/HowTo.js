@@ -1,13 +1,17 @@
+// Dependencies
 import React from "react"
-import Heading from "../../text/Heading"
-import { Container, Row, Col } from "react-bootstrap"
-import StyledSection from "./HowTo.styled"
-import Step from "../../cards/step/Step"
 
+// Components
+import Heading from "../../text/Heading"
+import Jump from "react-reveal/Jump"
+import Step from "../../cards/step/Step"
+import StyledSection from "./HowTo.styled"
+import { Container, Row, Col } from "react-bootstrap"
+
+// Icons
+import { faDollarSign } from "@fortawesome/free-solid-svg-icons"
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons"
 import { faStickyNote } from "@fortawesome/free-solid-svg-icons"
-import { faDollarSign } from "@fortawesome/free-solid-svg-icons"
-import Jump from "react-reveal/Jump"
 
 const HowTo = (props, { style: Style = StyledSection }) => {
   return (

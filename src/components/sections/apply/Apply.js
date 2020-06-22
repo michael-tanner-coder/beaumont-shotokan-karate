@@ -1,12 +1,17 @@
+// Dependencies
 import React from "react"
-import StyledSection from "./Apply.styled"
-import CTAImage from "../../../images/stock.jpg"
-import { Row, Col } from "react-bootstrap"
+
+// Components
 import Button from "../../button/Button"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faStar } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
+import StyledSection from "./Apply.styled"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { Link } from "gatsby"
+import { Row, Col } from "react-bootstrap"
+
+// Images/Icons
+import CTAImage from "../../../images/stock.jpg"
+import { faStar } from "@fortawesome/free-solid-svg-icons"
 
 const Apply = (props, { style: Style = StyledSection }) => {
   return (
@@ -14,7 +19,7 @@ const Apply = (props, { style: Style = StyledSection }) => {
       <Row fluid xs={1} sm={1} md={2} lg={2}>
         <Col className="join">
           <Fade left duration={800}>
-            <div>
+            <div className="join-border">
               <div className="join__header">
                 <h1>JOIN TODAY!</h1>
               </div>
@@ -62,7 +67,7 @@ const Apply = (props, { style: Style = StyledSection }) => {
         </Col>
       </Row>
 
-      <div className="footer">
+      <div className="banner">
         <h2>
           First month is
           <span className="cta"> FREE</span>

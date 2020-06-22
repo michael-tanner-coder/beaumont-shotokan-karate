@@ -1,9 +1,12 @@
+// Dependencies
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
-import StyledSection from "./Testimonials.styled"
+
+// Components
 import Heading from "../../text/Heading"
-import Quote from "./Quote"
 import Jump from "react-reveal/Jump"
+import Quote from "./Quote"
+import StyledSection from "./Testimonials.styled"
+import { Container, Row, Col } from "react-bootstrap"
 
 const Testimonials = (props, { style: Style = StyledSection }) => {
   return (

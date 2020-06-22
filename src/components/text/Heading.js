@@ -1,4 +1,5 @@
 import React from "react"
+
 import StyledHeading from "./Heading.styled"
 import PropTypes from "prop-types"
 
