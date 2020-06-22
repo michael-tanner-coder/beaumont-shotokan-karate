@@ -1,4 +1,5 @@
 import React from "react"
+
 import GoogleMapReact from "google-map-react"
 import StyledMap from "./Map.styled"
 import Pin from "../pin/Pin"

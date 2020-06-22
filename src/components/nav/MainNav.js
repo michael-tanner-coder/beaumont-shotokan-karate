@@ -1,4 +1,5 @@
 import React from "react"
+
 import StyledNav from "./MainNav.styled"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"

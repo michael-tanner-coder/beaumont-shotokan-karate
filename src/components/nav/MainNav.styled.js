@@ -3,42 +3,30 @@ import styled from "styled-components"
 const StyledNav = styled.div`
   background-color: ${props => props.theme.primary_color};
 
-  .navbar-brand {
-    font-family: "Edo SZ";
-  }
-
   .navbar-brand,
   .navbar-nav a {
-    color: ${props => props.theme.secondary_color};
+    color: ${props => props.theme.secondary_color}!important;
     text-decoration: none;
 
     &:hover {
-      color: ${props => props.theme.secondary_color};
       &:after {
-        opacity: 1;
         border-bottom: 1px solid ${props => props.theme.select_color};
+        opacity: 1;
       }
     }
 
     &:after {
+      border-bottom: 1px solid #0000;
       content: "";
       display: block;
       height: 8px;
       opacity: 0;
       transition: opacity 0.4s ease-in-out;
-      border-bottom: 1px solid #0000;
     }
   }
 
-  .active {
-    &:after {
-      content: "";
-      display: block;
-      height: 8px;
-      opacity: 0;
-      opacity: 1;
-      border-bottom: 1px solid ${props => props.theme.secondary_color};
-    }
+  .navbar-brand {
+    font-family: "Edo SZ";
   }
 
   .navbar-toggler-icon {
