@@ -1,4 +1,4 @@
-const theme = {
+const theme_alt = {
   primary_color: "#4074a7",
   secondary_color: "#f5f5f5",
   select_color: "#e59263",
@@ -6,7 +6,7 @@ const theme = {
   primary_font_color: "#36413e",
   primary_font: "",
   secondary_font: "",
-  background_color: "#ffffff",
+  background_color: "#363C44",
 }
 
-export default theme
+export default theme_alt
