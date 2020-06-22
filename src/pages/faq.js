@@ -7,8 +7,10 @@ import SEO from "../components/seo"
 import { Container } from "react-bootstrap"
 import Heading from "../components/text/Heading"
 import Accordion from "../components/accordion/Accordion"
-import QandA from "../components/q-a/QandA"
 import BGImg from "../components/bgImg/BGImg"
+
+// Content
+import QandA from "../content/q-a/QandA"
 
 // Images
 import BeltImg from "../images/leslie-jones.jpg"

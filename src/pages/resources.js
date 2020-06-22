@@ -1,9 +1,9 @@
 import React from "react"
 
-// Page data
-import Equipment from "../components/resources/Equipment"
-import Terms from "../components/resources/Terms"
-import Testing from "../components/resources/Testing"
+// Resources
+import Equipment from "../content/resources/Equipment"
+import Terms from "../content/resources/Terms"
+import Testing from "../content/resources/Testing"
 
 // Components
 import Layout from "../components/layout"
