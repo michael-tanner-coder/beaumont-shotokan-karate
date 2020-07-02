@@ -21,6 +21,7 @@ const IndexPage = () => (
       description="Traditional, family-friendly karate lessons in Beaumont, Texas."
     />
     <Warning />
+
     <section>
       <Hero image={heroImage}>
         <h1 className="title">

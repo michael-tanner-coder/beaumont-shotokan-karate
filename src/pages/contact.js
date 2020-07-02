@@ -5,7 +5,7 @@ import styled from "styled-components"
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Form, Container, Jumbotron } from "react-bootstrap"
+import { Form, Container } from "react-bootstrap"
 import { Link } from "gatsby"
 import Heading from "../components/text/Heading"
 import Button from "../components/button/Button"

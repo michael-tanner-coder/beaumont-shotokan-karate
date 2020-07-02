@@ -13,6 +13,7 @@ import StyledLayout from "./layout.styled"
 import { ThemeProvider } from "styled-components"
 import Footer from "./footer/Footer"
 import MainNav from "./nav/MainNav"
+import ThemeBtn from "./themeBtn/ThemeBtn"
 
 const Layout = ({ children, style: Style = StyledLayout }) => {
   const [activeTheme, setActiveTheme] = useState(theme)
