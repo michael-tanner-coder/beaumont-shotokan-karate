@@ -5,7 +5,8 @@ import styled from "styled-components"
 // Components
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Form, Container } from "react-bootstrap"
+import { Form, Container, Jumbotron } from "react-bootstrap"
+import { Link } from "gatsby"
 import Heading from "../components/text/Heading"
 import Button from "../components/button/Button"
 
@@ -37,6 +38,18 @@ const ContactPage = () => (
     <Container>
       <FormContainer>
         <Heading center>Contact Us</Heading>
+
+        <p className="text-muted">
+          Want to join BSK? Message us to get an application form or ask
+          questions about our rates and policies.
+          <br />
+          <br />
+          If you need a quick answer, check out our <Link to="/faq">
+            FAQ
+          </Link>{" "}
+          page.
+        </p>
+
         <Form>
           <Form.Group>
             <Form.Label for="name">
