@@ -17,7 +17,8 @@ const Warning = ({ style: Style = StyledWarning }) => {
         >
           <Alert.Heading>COVID-19 Update</Alert.Heading>
           Due to the COVID-19 pandemic, BSK has temporarily moved all classes to
-          remote Zoom sessions.
+          remote Zoom sessions. No new student applications can be accepted at
+          this time.
           <br />
           <br />
           Contact Sensei Patty at{" "}

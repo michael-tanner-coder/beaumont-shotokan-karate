@@ -40,14 +40,17 @@ const ContactPage = () => (
         <Heading center>Contact Us</Heading>
 
         <p className="text-muted">
-          Want to join BSK? Message us to get an application form or ask
-          questions about our rates and policies.
+          Questions for BSK? Message us and we'll respond as quickly as
+          possible.
           <br />
           <br />
           If you need a quick answer, check out our <Link to="/faq">
             FAQ
           </Link>{" "}
           page.
+        </p>
+        <p className="text-danger">
+          Update: No student applications are being accepted at this time.
         </p>
 
         <Form>
