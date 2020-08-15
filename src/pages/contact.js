@@ -29,8 +29,6 @@ const FormContainer = styled.div`
   }
 `
 
-var clicked = false
-
 const ContactPage = () => (
   <Layout>
     <SEO
