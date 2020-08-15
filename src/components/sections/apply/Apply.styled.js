@@ -33,8 +33,8 @@ const StyledSection = styled.section`
       margin: 0 1em;
       padding: 0.5em 0;
       text-align: center;
-      box-shadow: 7px 10px 12px #888888;
-      box-shadow: 7px 10px 12px #88888899;
+      box-shadow: 5px 6px 12px #999999;
+      box-shadow: 5px 6px 12px #99999999;
     }
 
     &__body {
@@ -43,8 +43,8 @@ const StyledSection = styled.section`
       height: 90%;
       margin: 0 1em 1.2em;
       padding: 0.5em;
-      box-shadow: 7px 10px 12px #888888;
-      box-shadow: 7px 10px 12px #88888899;
+      box-shadow: 5px 6px 12px #999999;
+      box-shadow: 5px 6px 12px #99999999;
 
       ul {
         list-style: none;

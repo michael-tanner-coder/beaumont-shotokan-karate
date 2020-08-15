@@ -1,15 +1,18 @@
 import styled from "styled-components"
 
 const StyledQuote = styled.div`
-  background-color: ${({ theme }) => theme.secondary_color};
   border-radius: 8px;
-  box-shadow: 5px 8px 12px #888888;
-  box-shadow: 5px 8px 12px #88888899;
+  box-shadow: 5px 6px 12px #999999;
+  box-shadow: 5px 6px 12px #99999999;
   padding: 0.3em;
 
   p,
   cite {
     text-align: center;
+  }
+
+  p {
+    font-weight: bold;
   }
 
   .quote-mark {

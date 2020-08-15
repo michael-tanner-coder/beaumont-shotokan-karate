@@ -2,8 +2,8 @@ import styled from "styled-components"
 
 const StyledStep = styled.div`
   border-radius: 8px;
-  box-shadow: 5px 8px 15px #888888;
-  box-shadow: 5px 8px 15px #88888899;
+  box-shadow: 2px 3px 12px #999999;
+  box-shadow: 2px 3px 12px #99999999;
 
   h2,
   h3,
