@@ -8,7 +8,6 @@ import Hero from "../components/hero/Hero"
 import Testimonials from "../components/sections/testimonials/Testimonials"
 import Details from "../components/sections/details/Details"
 import Apply from "../components/sections/apply/Apply"
-import Warning from "../components/warning/Warning"
 import Fade from "react-reveal/Fade"
 
 // Images
@@ -20,7 +19,6 @@ const IndexPage = () => (
       title="Home"
       description="Traditional, family-friendly karate lessons in Beaumont, Texas."
     />
-    <Warning />
 
     <section>
       <Hero image={heroImage}>

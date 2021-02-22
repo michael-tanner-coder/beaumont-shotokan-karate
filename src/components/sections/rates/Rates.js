@@ -4,7 +4,7 @@ import Heading from "../../text/Heading"
 import StyledSection from "./Rates.styled"
 import { Table, Container } from "react-bootstrap"
 
-const Rates = (props, { style: Style = StyledSection }) => {
+const Rates = ({ style: Style = StyledSection }) => {
   return (
     <Style id="rates">
       <Container>

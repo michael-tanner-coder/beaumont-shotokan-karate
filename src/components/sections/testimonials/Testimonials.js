@@ -7,6 +7,8 @@ import Jump from "react-reveal/Jump"
 import Quote from "./Quote"
 import StyledSection from "./Testimonials.styled"
 import { Container, Row, Col } from "react-bootstrap"
+
+// Content
 import StudentTestimonials from "../../../content/testimonials/StudentTestimonials"
 
 const Testimonials = (props, { style: Style = StyledSection }) => {

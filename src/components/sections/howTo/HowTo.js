@@ -8,7 +8,7 @@ import Step from "../../cards/step/Step"
 import StyledSection from "./HowTo.styled"
 import { Container, Row, Col } from "react-bootstrap"
 
-// Icons
+// Content
 import StepsToJoin from "../../../content/steps-to-join"
 
 const HowTo = ({ style: Style = StyledSection }) => {
