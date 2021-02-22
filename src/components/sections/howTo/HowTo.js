@@ -9,9 +9,6 @@ import StyledSection from "./HowTo.styled"
 import { Container, Row, Col } from "react-bootstrap"
 
 // Icons
-import { faDollarSign } from "@fortawesome/free-solid-svg-icons"
-import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons"
-import { faStickyNote } from "@fortawesome/free-solid-svg-icons"
 import StepsToJoin from "../../../content/steps-to-join"
 
 const HowTo = ({ style: Style = StyledSection }) => {
